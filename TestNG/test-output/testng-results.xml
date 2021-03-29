@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="5" total="15" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="1234" duration-ms="162" started-at="2021-01-04T12:53:13Z" finished-at="2021-01-04T12:53:13Z">
+    <groups>
+      <group name="smoke">
+        <method signature="One.test3()[pri:0, instance:Tutorial.One@7ac7a4e4]" name="test3" class="Tutorial.One"/>
+        <method signature="Four.test6()[pri:0, instance:Tutorial.Four@2a5ca609]" name="test6" class="Tutorial.Four"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="TestNG Example" duration-ms="74" started-at="2021-01-04T12:53:13Z" finished-at="2021-01-04T12:53:13Z">
+      <class name="Tutorial.One">
+        <test-method status="PASS" signature="test1()[pri:0, instance:Tutorial.One@7ac7a4e4]" name="test1" duration-ms="13" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Tutorial.One@7ac7a4e4]" name="test2" duration-ms="3" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="FAIL" signature="test3()[pri:0, instance:Tutorial.One@7ac7a4e4]" name="test3" duration-ms="7" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at Tutorial.One.test3(One.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test15()[pri:0, instance:Tutorial.One@7ac7a4e4]" name="test15" is-config="true" duration-ms="0" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+      </class> <!-- Tutorial.One -->
+      <class name="Tutorial.Two">
+        <test-method status="PASS" signature="test13()[pri:0, instance:Tutorial.Two@548b7f67]" name="test13" is-config="true" duration-ms="1" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Tutorial.Two@548b7f67]" name="method" is-config="true" duration-ms="0" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="test10()[pri:0, instance:Tutorial.Two@548b7f67]" name="test10" duration-ms="2" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:Tutorial.Two@548b7f67]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="test11()[pri:0, instance:Tutorial.Two@548b7f67]" name="test11" duration-ms="2" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Tutorial.Two@548b7f67]" name="method" is-config="true" duration-ms="0" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:Tutorial.Two@548b7f67]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Tutorial.Two -->
+    </test> <!-- TestNG Example -->
+    <test name="TestNG Example2" duration-ms="36" started-at="2021-01-04T12:53:13Z" finished-at="2021-01-04T12:53:13Z">
+      <class name="Tutorial.One">
+        <test-method status="PASS" signature="matrix()[pri:0, instance:Tutorial.One@7ac7a4e4]" name="matrix" is-config="true" duration-ms="1" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matrix -->
+      </class> <!-- Tutorial.One -->
+      <class name="Tutorial.Four">
+        <test-method status="PASS" signature="test4()[pri:0, instance:Tutorial.Four@2a5ca609]" name="test4" duration-ms="2" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:Tutorial.Four@2a5ca609]" name="test6" duration-ms="3" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="X2est5()[pri:0, instance:Tutorial.Four@2a5ca609]" name="X2est5" duration-ms="9" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- X2est5 -->
+        <test-method status="PASS" signature="Xest5()[pri:0, instance:Tutorial.Four@2a5ca609]" name="Xest5" duration-ms="2" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Xest5 -->
+        <test-method status="PASS" signature="test31()[pri:0, instance:Tutorial.Four@2a5ca609]" name="test31" duration-ms="2" started-at="2021-01-04T18:23:13Z" depends-on-methods="Tutorial.Four.test4, Tutorial.Four.test6" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test31 -->
+      </class> <!-- Tutorial.Four -->
+      <class name="Tutorial.Two">
+        <test-method status="PASS" signature="simba()[pri:0, instance:Tutorial.Two@548b7f67]" name="simba" is-config="true" duration-ms="8" started-at="2021-01-04T18:23:13Z" finished-at="2021-01-04T18:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simba -->
+      </class> <!-- Tutorial.Two -->
+    </test> <!-- TestNG Example2 -->
+  </suite> <!-- 1234 -->
+</testng-results>

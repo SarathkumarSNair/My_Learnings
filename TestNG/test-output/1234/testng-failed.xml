@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [1234]">
+  <listeners>
+    <listener class-name="Tutorial.ListsenersFil"/>
+  </listeners>
+  <test name="TestNG Example(failed)">
+    <classes>
+      <class name="Tutorial.One">
+        <methods>
+          <include name="matrix"/>
+          <include name="test15"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- Tutorial.One -->
+    </classes>
+  </test> <!-- TestNG Example(failed) -->
+</suite> <!-- Failed suite [1234] -->

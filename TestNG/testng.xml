@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="1234">
+<listeners>
+<listener class-name="Tutorial.ListsenersFil"/>
+</listeners>
+  <test name="TestNG Example">
+    <classes>
+      <class name="Tutorial.One"/>
+      <class name="Tutorial.Two">
+      <methods>
+     <include name="test10"></include>
+     <include name="test11"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestNG Example2">
+   <classes>
+      <class name="Tutorial.Four">
+      <methods>
+      <exclude name="test5"/>
+      </methods>
+      </class>
+      <class name="Tutorial.Three">
+      <methods>
+      <exclude name="test.*"></exclude>
+      </methods>
+      </class>
+    </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72" started-at="2021-01-10T00:14:30 IST" finished-at="2021-01-10T00:14:30 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="72" started-at="2021-01-10T00:14:30 IST" finished-at="2021-01-10T00:14:30 IST">
+      <class name="LearningMaven.MvnTutorial.APITest">
+        <test-method status="PASS" signature="Postman()[pri:0, instance:LearningMaven.MvnTutorial.APITest@3327bd23]" name="Postman" duration-ms="3" started-at="2021-01-10T00:14:30 IST" finished-at="2021-01-10T00:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Postman -->
+        <test-method status="PASS" signature="Rest()[pri:0, instance:LearningMaven.MvnTutorial.APITest@3327bd23]" name="Rest" duration-ms="0" started-at="2021-01-10T00:14:30 IST" finished-at="2021-01-10T00:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rest -->
+      </class> <!-- LearningMaven.MvnTutorial.APITest -->
+      <class name="LearningMaven.MvnTutorial.AppiumTest">
+        <test-method status="PASS" signature="Mobileapp()[pri:0, instance:LearningMaven.MvnTutorial.AppiumTest@4e1d422d]" name="Mobileapp" duration-ms="0" started-at="2021-01-10T00:14:30 IST" finished-at="2021-01-10T00:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileapp -->
+        <test-method status="PASS" signature="UI()[pri:0, instance:LearningMaven.MvnTutorial.AppiumTest@4e1d422d]" name="UI" duration-ms="0" started-at="2021-01-10T00:14:30 IST" finished-at="2021-01-10T00:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UI -->
+      </class> <!-- LearningMaven.MvnTutorial.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

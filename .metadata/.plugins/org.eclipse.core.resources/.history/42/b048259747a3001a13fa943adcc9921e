@@ -1,0 +1,30 @@
+import java.sql.Driver;
+
+import javax.xml.xpath.XPath;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ById;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Term {
+public static void main(String[]args){
+	System.setProperty("webdriver.chrome.driver", "C:\\chrome\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://www.google.com/");
+	 System.out.println(driver.getTitle());
+	System.out.println(driver.getCurrentUrl());
+	//System.out.println(driver.getPageSource());
+	driver.navigate().to("https://www.facebook.com/Kumar.s.sarath.007/photos");
+	//driver.navigate().back();
+	//driver.close();
+	//driver.quit();
+	driver.findElement(By.id("email")).sendKeys("sarath");
+	driver.findElement(By.name("pass")).sendKeys("123456");
+	driver.findElement(By.linkText("Forgotten account?")).click();
+	driver.findElement(By.id("identify_email")).sendKeys("djhf");
+	driver.findElement(By.xpath("//*[@id=\"u_0_2\"]")).click();
+    driver.findElement(By.cssSelector("div").
+	
+}
+}

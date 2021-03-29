@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="80" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="80" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+      <class name="LearningMaven.MvnTutorial.APITest">
+        <test-method status="PASS" signature="Postman()[pri:0, instance:LearningMaven.MvnTutorial.APITest@5ce81285]" name="Postman" duration-ms="7" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Postman -->
+        <test-method status="PASS" signature="Rest()[pri:0, instance:LearningMaven.MvnTutorial.APITest@5ce81285]" name="Rest" duration-ms="5" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rest -->
+      </class> <!-- LearningMaven.MvnTutorial.APITest -->
+      <class name="LearningMaven.MvnTutorial.SelniumTest">
+        <test-method status="PASS" signature="Elemet()[pri:0, instance:LearningMaven.MvnTutorial.SelniumTest@5ec0a365]" name="Elemet" duration-ms="1" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Elemet -->
+        <test-method status="PASS" signature="webautomation()[pri:0, instance:LearningMaven.MvnTutorial.SelniumTest@5ec0a365]" name="webautomation" duration-ms="0" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webautomation -->
+      </class> <!-- LearningMaven.MvnTutorial.SelniumTest -->
+      <class name="LearningMaven.MvnTutorial.AppiumTest">
+        <test-method status="PASS" signature="Mobileapp()[pri:0, instance:LearningMaven.MvnTutorial.AppiumTest@78c03f1f]" name="Mobileapp" duration-ms="0" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileapp -->
+        <test-method status="PASS" signature="UI()[pri:0, instance:LearningMaven.MvnTutorial.AppiumTest@78c03f1f]" name="UI" duration-ms="1" started-at="2021-01-09T23:20:40 IST" finished-at="2021-01-09T23:20:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UI -->
+      </class> <!-- LearningMaven.MvnTutorial.AppiumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

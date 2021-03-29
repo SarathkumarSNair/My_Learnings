@@ -1,0 +1,23 @@
+import java.sql.Driver;
+
+import javax.xml.xpath.XPath;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ById;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.ClickAction;
+import org.openqa.selenium.interactions.SendKeysAction;
+
+public class Term {
+public static void main(String[]args){
+	System.setProperty("webdriver.chrome.driver", "C:\\chrome\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://www.trivago.in/");
+	 System.out.println(driver.getTitle());
+	System.out.println(driver.getCurrentUrl());
+	driver.findElement(By.xpath("//Input[@type=\"search\"]")).sendKeys("Marriot");
+	//driver.findElement(arg0)
+	
+}
+}

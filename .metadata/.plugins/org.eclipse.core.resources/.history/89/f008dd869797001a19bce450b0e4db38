@@ -1,0 +1,15 @@
+
+public class Jav {
+
+	public static void main(String[] args) {
+		String s = "King";
+		int myFirstNumber = (10+5)+(2*5);
+		int mySecondNumber = 12;
+		int myThirdNumber = myFirstNumber*2;
+		int myTotal = myFirstNumber+mySecondNumber+myThirdNumber;
+		int lastOne = myTotal- 1000;
+		System.out.println(lastOne);
+
+	}
+
+}
