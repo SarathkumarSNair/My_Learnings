@@ -11,10 +11,10 @@ public class SkillAuto {
 		System.setProperty("webdriver.chrome.driver", "C:\\chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://skillcert.aka.amazon.com/itemgroup/application/search.html");
-		driver.findElement(By.id("user_name_field")).sendKeys("saratnai");
+		driver.findElement(By.id("user_name_field")).sendKeys("testing");
 		driver.findElement(By.id("user_name_btn")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.id("password_field")).sendKeys("Tesla@12");
+		driver.findElement(By.id("password_field")).sendKeys("test@12");
 		driver.findElement(By.id("password_btn")).click();
 		Thread.sleep(10000);
 		 System.out.println(driver.getTitle());
