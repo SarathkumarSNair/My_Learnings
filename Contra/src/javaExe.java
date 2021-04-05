@@ -42,9 +42,9 @@ public static void main(String[]args) throws IOException {
 
 	//System.out.println(driver.findElement(By.xpath("//input[@class='desktop-searchBar']")).getText());
 	driver.findElement(By.id("nav-link-accountList")).click();
-	driver.findElement(By.id("ap_email")).sendKeys("sarathkumars01@gmail.com");;
+	driver.findElement(By.id("ap_email")).sendKeys("sarath01@gmail.com");;
 	driver.findElement(By.id("continue")).click();
-	driver.findElement(By.id("ap_password")).sendKeys("Sarath@123");
+	driver.findElement(By.id("ap_password")).sendKeys("Sarath456");
 	driver.findElement(By.id("signInSubmit")).click();
 	driver.findElement(By.className("nav-a  ")).click();
 	
